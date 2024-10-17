@@ -42,7 +42,7 @@ int main() {
                             + (j + vinfo.xoffset) * vinfo.bits_per_pixel / 8;
 
             // Set pixel (white color for RGB 888)
-            *((unsigned int *)(fb_ptr + location)) = 0xFFFFFF;
+            *((unsigned int *)(fb_ptr + location)) = 0xF1FF1F;
         }
     }
 
