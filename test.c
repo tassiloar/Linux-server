@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <linux/fb.h>
+#include <sys/ioctl.h>  // Include this for ioctl
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
